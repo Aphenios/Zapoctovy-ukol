@@ -27,7 +27,6 @@ body{
 
 h1{
     text-align: center;
-    text-emphasis: bold;
     color: green;
     font-size: 2cm;
     animation: fadeIn 1s ease-in-out;
