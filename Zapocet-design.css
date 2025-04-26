@@ -1,0 +1,105 @@
+.font1 {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font2 {
+    font-family: "Coral Pixels", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.barva1{
+    color:red;
+}
+.barva2{
+    color: darkgoldenrod;
+}
+.barva3{
+    color:blue;
+}
+
+body{
+    background-color: #d4f8cc;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    color: green;
+    font-size: 2cm;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.duvody{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.bunka{
+    background: white;
+    border: 2px solid #9ef651;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background 0.3s;
+    font-size: 2em;
+}
+
+.bunka:hover{
+    background: #9ef651;
+    transform: scale(1.05);
+}
+
+.odkaz{
+    color: inherit;
+    text-decoration: none;
+}
+
+.tlačítko{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    animation: fadeIn 3s ease-in-out;
+    padding: 15px 30px;
+    font-size: 2em;
+}
+
+.potvrdit{
+    background: #28a745;
+    color: white;
+    padding: 15px 30px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.potvrdit:hover{
+    background: #218838;
+}
+
+.zamitnout{
+    background: #d8606c;
+    color: white;
+    padding: 15px 30px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.zamitnout:hover{
+    background: #c82333;
+}
