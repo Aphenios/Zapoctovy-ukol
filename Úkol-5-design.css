@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: lightgray;
+    padding: 20px;
+  }
+
+.tabulka {
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    border-color: black;
+    padding: 10px;
+}
+
+@media (min-width: 1400px) {
+    .tabulka {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+  
+@media (min-width: 800px) and (max-width: 1399px) {
+   .tabulka {
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+  
+@media (max-width: 799px) {
+   .tabulka {
+    grid-template-columns: 1fr;
+   }
+}
+
+.bunka{
+    border: 2px solid gray;   
+    padding: 10px;            
+} 
+
+svg {
+    width: 100%;
+    height: auto;
+} 
+
+.popisek {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sipka{
+    transition: fill 0.3s, stroke 0.3s;
+}
+
+.sipka:hover {
+    fill: aqua;
+    stroke: blue;
+}

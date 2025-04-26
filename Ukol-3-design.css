@@ -1,0 +1,30 @@
+
+body{
+    padding: 10px 30px          /* odsazení od krajů stránky */
+     justify;             /* zarovnání textu */
+}
+table{
+    border-collapse: collapse;  /* vymazání okrajů tabulky */
+    width: 100%;
+}
+
+
+tr:nth-child(2n){
+    background-color: lightgray;
+}
+tr:nth-child(1){
+    font-weight: bold;
+}
+td{
+    padding: 7px;
+}
+
+tr:hover:not(:first-child) {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.tabulka{
+    overflow-x: auto;
+}
