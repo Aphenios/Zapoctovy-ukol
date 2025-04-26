@@ -68,25 +68,22 @@ h1{
 }
 
 .tlačítko{
-    margin-top: 40px;
     display: flex;
     justify-content: center;
     gap: 20px;
     animation: fadeIn 3s ease-in-out;
-}
-
-.tlačítko button {
     padding: 15px 30px;
-    font-size: 1em;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.3s;
+    font-size: 2em;
 }
 
 .potvrdit{
     background: #28a745;
     color: white;
+    padding: 15px 30px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
 }
 
 .potvrdit:hover{
@@ -96,6 +93,11 @@ h1{
 .zamitnout{
     background: #d8606c;
     color: white;
+    padding: 15px 30px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
 }
 
 .zamitnout:hover{
